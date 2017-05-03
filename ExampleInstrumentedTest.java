@@ -1,4 +1,4 @@
-package com.example.lamduong.activityislistener;
+package com.example.lamduong.example1;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.lamduong.activityislistener", appContext.getPackageName());
+        assertEquals("com.example.lamduong.example1", appContext.getPackageName());
     }
 }
