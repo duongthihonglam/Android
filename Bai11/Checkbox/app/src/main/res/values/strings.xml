@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Checkbox</string>
+    <string name="action_settings">Settings</string>
+    <string name="bongda"> Xem phim bóng đá</string>
+    <string name="kiemhiep"> Xem phim Kiếm hiệp</string>
+    <string name="dulich"> Đi du lịch</string>
+    <string name="tuki"> Tự kỉ 1 mình </string>
+</resources>
