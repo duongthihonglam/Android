@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lamduong.vidu_listview_arraylist.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+   <EditText
+       android:id="@+id/txtTen"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:inputType="text"
+       android:layout_toRightOf="@+id/textView1"
+       android:ems="10"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/textView1"
+        android:layout_alignBaseline="@id/txtTen"
+        android:layout_alignBottom="@+id/txtTen"
+        android:layout_alignParentLeft="true"
+        android:background="#DEB887"
+        android:text="Nhập tên: "/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNhap"
+        android:layout_alignRight="@+id/txtTen"
+        android:layout_below="@+id/txtTen"
+        android:layout_toRightOf="@+id/textView1"
+        android:textAlignment="center"
+        android:text="Nhập"/>
+    <TextView
+        android:id="@+id/txtselection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnNhap"
+        android:background="#007380" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvperson"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtselection"
+        android:background="#cccccc"></ListView>
+</RelativeLayout>
