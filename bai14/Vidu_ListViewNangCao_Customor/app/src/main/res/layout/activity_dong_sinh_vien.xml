@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dong_sinh_vien"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lamduong.vidu_listviewnangcao_customor.DongSinhVien">
+
+    <TextView
+        android:text="Họ tên"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="11dp"
+        android:id="@+id/txtHoTen" />
+
+    <TextView
+        android:text="Năm sinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHoTen"
+        android:layout_alignLeft="@+id/txtHoTen"
+        android:layout_alignStart="@+id/txtHoTen"
+        android:layout_marginTop="17dp"
+        android:id="@+id/txtNamSinh" />
+
+
+</RelativeLayout>
